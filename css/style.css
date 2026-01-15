@@ -710,6 +710,7 @@ flex-direction: row-reverse;
 }
 /*************************************************************************** Footer section ****************************************************************************/
 .footer {
+    position: relative;
     padding-top: 50px;
     padding-bottom: 42px;
     background: linear-gradient(180deg, rgba(255, 148, 1, 0.05) 0%, rgba(255, 237, 211, 0) 100%);
@@ -830,8 +831,21 @@ flex-direction: row-reverse;
     font-size: 12px;
     line-height: 120%;
 }
-.fa {
+.footer-bottom-block .fa {
     color: var(--color-btn);
     font-size: 10px;
+}
+
+
+.footer__img-left {
+    position: absolute;
+    top: -25px; 
+    left: 3px;
+}
+
+.footer__img-right {
+    position: absolute;
+    top: -45px; 
+    right: -8px;
 }
 
